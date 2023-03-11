@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhananjay Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Climate+Crisis&family=Golos+Text:wght@900&family=Playfair+Display&family=Shantell+Sans:ital,wght@0,300;0,500;1,300&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    /* CSS RESET */
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Climate Crisis', cursive;
+        font-family: 'Golos Text', sans-serif;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Shantell Sans', cursive;
+        /* font-size: xx-large; */
+        color: rgb(215, 205, 205);
+        margin: 0px;
+        padding: 0px;
+        background: url('img/hogwarts-legacy-3840x2160-10410.jpg');
+    }
+
+    .left {
+
+        position: absolute;
+        lef: 35px;
+        top: 20px;
+        display: inline-block;
+        border: 5px solid rgb(236, 241, 224);
+
+    }
+
+    .left img {
+        width: 180px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+
+        display: block;
+        margin: 20px auto;
+        width: 59%;
+        border: 5px solid rgb(194, 209, 194);
+    }
+
+    .right {
+
+        position: absolute;
+        right: 35px;
+        top: 20px;
+        display: inline-block;
+        border: 5px solid rgb(227, 227, 223);
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        text-align: center;
+        display: inline-block;
+        font-size: 50px;
+
+    }
+
+    .navbar li a {
+        color: rgb(12, 11, 11);
+        text-decoration: none;
+        padding: 30px 30px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(151, 26, 4);
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        padding: 5px 15px;
+        background-color: black;
+        border-radius: 10px;
+        font-size: 40px;
+    }
+
+    .btn:hover {
+        background-color: rgb(90, 83, 83);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/c-removebg-preview.png" alt="">
+            <div>PATIL</div>
+        </div>
+        <!-- Mid of navbar      -->
+        <div class="mid">
+            <ul class="navbar">
+
+                <li> <a href="#" class="active">Home</a> </li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Suscriptions</a></li>
+                <li><a href="#">Product</a></li>
+            </ul>
+        </div>
+        <!-- Right box of buttonos -->
+        <div class="right">
+            <button class="btn">Call us</button><button class="btn">Email us</button>
+        </div>
+    </header>
+</body>
+
+</html>
